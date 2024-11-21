@@ -1,0 +1,70 @@
+/* Center and style the main game container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Style the title */
+  .game-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style input fields */
+  .game-input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Style buttons */
+  .game-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-button:hover {
+    background-color: #45a049;
+  }
+  
+  .game-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style feedback message */
+  .feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    min-height: 30px;
+  }
+  
+  /* Style attempts count */
+  .attempts-count {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
